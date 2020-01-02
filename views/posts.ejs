@@ -5,3 +5,11 @@
     <%= posts[i].title %> - <strong><%= posts[i].author %></strong>
 </li>
 <% } %>
+
+<p>For Each Loop Example</p>
+
+<% posts.forEach(function(post){ %>
+    <li>
+        <%= post.title %> - <strong><%= post.author %></strong>
+    </li>
+<% }) %>
