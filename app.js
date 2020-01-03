@@ -4,7 +4,7 @@ var app = express();
 // var app = require("express")();
 
 app.use(express.static("public"));
-app.set("view egine", "ejs");
+app.set("view engine", "ejs");
 
 app.get("/", function (req, res) {
     // res.send("<h1>Welcome to the home Page<h1>");

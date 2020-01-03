@@ -1,9 +1,9 @@
-<style>
+<!-- <style>
     body{
         color: purple;
     }
-</style>
-
+</style> -->
+<%- include("partials/header") %>
 <h1>You fell in love with: <%= thingVar.toUpperCase() %></h1>
 
 <% if(thingVar.toLowerCase() === "rusty"){ %>
@@ -11,3 +11,5 @@
     <% }else{ %>
         <p>Bad Choice you should have selected rusty!!</p>
         <% } %>
+
+<%- include("partials/footer") %>
