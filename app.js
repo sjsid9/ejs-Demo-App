@@ -3,6 +3,7 @@ var app = express();
 
 // var app = require("express")();
 
+// look for public named folder and serve it online, so that it's contents can be used
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
